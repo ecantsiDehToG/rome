@@ -1,4 +1,9 @@
-﻿export default [
+﻿/*
+ * @Description: 
+ * @Author: shenhui
+ * @Date: 2022-05-18 20:04:44
+ */
+export default [
   {
     path: '/user',
     layout: false,
@@ -38,7 +43,7 @@
     ],
   },
   {
-    name: 'list.table-list',
+    name: 'list.template-list',
     icon: 'table',
     path: '/list',
     component: './TableList',

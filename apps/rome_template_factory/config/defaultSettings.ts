@@ -19,7 +19,7 @@ const Settings: LayoutSettings & {
   colorWeak: false,
   title: 'rome template factory',
   pwa: false,
-  logo: 'https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg',
+  logo: './favicon.ico', // 这是运行时的，如果配置相对路径应该是构建之后的相对路径
   iconfontUrl: '',
 };
 
