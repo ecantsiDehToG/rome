@@ -1,3 +1,8 @@
+/*
+ * @Description: 
+ * @Author: shenhui
+ * @Date: 2022-05-18 20:04:44
+ */
 import React from 'react';
 import { HeartTwoTone, SmileTwoTone } from '@ant-design/icons';
 import { Card, Typography, Alert } from 'antd';
@@ -8,10 +13,11 @@ const Admin: React.FC = () => {
   const intl = useIntl();
   return (
     <PageHeaderWrapper
-      content={intl.formatMessage({
-        id: 'pages.admin.subPage.title',
-        defaultMessage: 'This page can only be viewed by admin',
-      })}
+      // content={intl.formatMessage({
+      //   id: 'pages.admin.subPage.title',
+      //   defaultMessage: 'This page can only be viewed by admin',
+      // })}
+      content={'闹着玩'}
     >
       <Card>
         <Alert
@@ -28,7 +34,7 @@ const Admin: React.FC = () => {
           }}
         />
         <Typography.Title level={2} style={{ textAlign: 'center' }}>
-          <SmileTwoTone /> Ant Design Pro <HeartTwoTone twoToneColor="#eb2f96" /> You
+          <SmileTwoTone /> 模板物料仓库 <HeartTwoTone twoToneColor="#eb2f96" /> You
         </Typography.Title>
       </Card>
       <p style={{ textAlign: 'center', marginTop: 24 }}>

@@ -1,3 +1,8 @@
+/*
+ * @Description: 
+ * @Author: shenhui
+ * @Date: 2022-05-18 20:04:44
+ */
 // https://umijs.org/config/
 import { defineConfig } from 'umi';
 import { join } from 'path';
@@ -70,7 +75,7 @@ export default defineConfig({
     },
   ],
   nodeModulesTransform: { type: 'none' },
-  mfsu: {},
+  // mfsu: {},
   webpack5: {},
   exportStatic: {},
 });
